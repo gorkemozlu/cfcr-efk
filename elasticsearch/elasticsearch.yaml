@@ -17,4 +17,4 @@ spec:
   data-volume-size: 10Gi
   java-options: "-Xms512m -Xmx512m"
   storage:
-    type: pd-standard
+    storage-class-provisioner: kubernetes.io/vsphere-volume
