@@ -8,7 +8,7 @@ spec:
     image: harbor.pks.migros.local/poc/kibana:5.3.1
   cerebro:
     image: harbor.pks.migros.local/poc/cerebro:0.6.8
-  elastic-search-image: upmcenterprises/docker-elasticsearch-kubernetes:5.6.4_1
+  elastic-search-image: harbor.pks.migros.local/poc/docker-elasticsearch-kubernetes:5.6.4_1
   client-node-replicas: 3
   master-node-replicas: 3
   data-node-replicas: 3
